@@ -1,0 +1,98 @@
+'text.html.vue':
+    'iView UI Form':
+        'prefix': 'iff',
+        'body': """
+        <Form ref="${1:form}" :model="${2:formData}" >
+            $3
+        </Form>
+        """
+    'iView UI Form Item':
+        'prefix': 'iffi',
+        'body': """
+            <Form-item label="$1" prop="$2">
+                $3
+            </Form-item>
+        """
+    'iView UI Input':
+        'prefix': 'ifi',
+        'body': """
+            <Input placeholder="${1:请输入...}" v-model="$2"></Input>
+        """
+    'iView UI Input with icon':
+        'prefix': 'ifii',
+        'body': """
+            <Input placeholder="${1:请输入...}" v-model="$2" icon="$3"></Input>
+        """
+    'iView UI Input for textarea':
+        'prefix': 'ifit',
+        'body': """
+            <Input placeholder="${1:请输入...}" v-model="$2" type="textarea" :autosize="true"></Input>
+        """
+    'iView UI Input with slot':
+        'prefix': 'ifis',
+        'body': """
+            <Input placeholder="${1:请输入...}" v-model="$2">
+                $3
+            </Input>
+        """
+    'iView UI Radio':
+        'prefix': 'ifr',
+        'body': """
+            <Radio v-model="$1">$2</Radio>
+        """
+    'iView UI Radio Group':
+        'prefix': 'ifrg',
+        'body': """
+            <Radio-group v-model="$1">
+                <Radio label="$2">$3</Radio>
+            </Radio-group>
+        """
+    'iView UI Radio Group Button':
+        'prefix': 'ifrgb',
+        'body': """
+            <Radio-group v-model="$1" type="button">
+                <Radio label="$2">$3</Radio>
+            </Radio-group>
+        """
+    'iView UI Checkbox':
+        'prefix': 'ifc',
+        'body': """
+            <Checkbox v-model="$1">$2</Checkbox>
+        """
+    'iView UI Checkbox Group':
+        'prefix': 'ifcg',
+        'body': """
+            <Checkbox-group v-model="$1">
+                <Checkbox label="$2">$3</Checkbox>
+            </Checkbox-group>
+        """
+    'iView UI Switch':
+        'prefix': 'ifs',
+        'body': """
+            <i-switch v-model="$1">
+                <span slot="open">${2:开启}</span>
+                <span slot="close">${3:关闭}</span>
+            </i-switch>
+        """
+    'iView UI Select':
+        'prefix': 'ifse',
+        'body': """
+            <Select v-model="$1">
+                <Option v-for="item in $2" :value="item.value" :key="item">{{ item.label }}</Option>
+            </Select>
+        """
+    'iView UI Slider':
+        'prefix': 'ifsl',
+        'body': """
+            <Slider v-model="$1"></Slider>
+        """
+    'iView UI Cascader':
+        'prefix': 'ifca',
+        'body': """
+            <Cascader :data="$1" v-model="$2"></Cascader>
+        """
+    'iView UI Rate':
+        'prefix': 'ifra',
+        'body': """
+            <Rate v-model="$1"></Rate>
+        """

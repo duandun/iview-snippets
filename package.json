@@ -2,7 +2,7 @@
   "name": "iview-snippets",
   "version": "0.0.1",
   "description": "snippets for IView",
-  "repository": "https://github.com/duandun/iview-snippets",
+  "repository": "https://github.com/duandun/iview-snippets.git",
   "keywords": [
     "IView",
     "snippets"

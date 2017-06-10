@@ -1,4 +1,4 @@
-'text.html.vue':
+'.text.html.vue':
     'iView UI Form':
         'prefix': 'iff',
         'body': """

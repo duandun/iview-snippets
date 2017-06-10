@@ -1,1 +1,1 @@
-# iview-ui-snippets package
+# iview-snippets package

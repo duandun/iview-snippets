@@ -1,0 +1,16 @@
+{
+  "name": "iview-snippets",
+  "version": "0.0.1",
+  "description": "snippets for iView",
+  "keywords": [
+      "iView",
+      "snippets"
+  ],
+  "repository": "https://github.com/duandun/iview-snippets.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

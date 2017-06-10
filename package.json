@@ -1,0 +1,15 @@
+{
+  "name": "iview-ui-snippets",
+  "version": "0.0.1",
+  "description": "snippets for IView UI",
+  "repository": "https://github.com/duandun/iview-ui-snippets",
+  "keywords": [
+    "IView",
+    "snippets"
+  ],
+  "engines": {
+   "atom": "*"
+ },
+  "author": "cr",
+  "license": "MIT"
+}

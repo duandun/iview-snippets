@@ -1,0 +1,34 @@
+'.text.html.vue':
+    'iView Alert':
+        'prefix': 'iva',
+        'body': """
+        <Alert>$1</Alert>
+        """
+    'iView Card':
+        'prefix': 'ivc',
+        'body': """
+        <Card>
+            <p slot="title">$1</p>
+            <div>$2</div>
+        </Card>
+        """
+    'iView Message':
+        'prefix': 'ivm',
+        'body': """
+        this.$Message.info('$1')
+        """
+    'iView Notice':
+        'prefix': 'ivn',
+        'body': """
+        this.$Notice.open({
+            title: '$1',
+            desc: '$2'
+        })
+        """
+    'iView Poptip':
+        'prefix': 'ivp',
+        'body': """
+        <Poptip trigger="{$1:hover}">
+            $2
+        </Poptip>
+        """

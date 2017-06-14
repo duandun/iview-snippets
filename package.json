@@ -1,10 +1,10 @@
 {
   "name": "iview-snippets",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "snippets for iView",
   "keywords": [
-      "iView",
-      "snippets"
+    "iView",
+    "snippets"
   ],
   "repository": "https://github.com/duandun/iview-snippets.git",
   "license": "MIT",
@@ -14,6 +14,5 @@
   "author": {
     "name": "CR"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

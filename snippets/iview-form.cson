@@ -1,72 +1,72 @@
 '.text.html.vue':
-    'iView UI Form':
+    'iView Form':
         'prefix': 'iff',
         'body': """
-        <Form ref="${1:form}" :model="${2:formData}" >
+        <Form ref="${1:form}" :model="${2:formData}" :label-width="80">
             $3
         </Form>
         """
-    'iView UI Form Item':
+    'iView Form Item':
         'prefix': 'iffi',
         'body': """
             <Form-item label="$1" prop="$2">
                 $3
             </Form-item>
         """
-    'iView UI Input':
+    'iView Input':
         'prefix': 'ifi',
         'body': """
             <Input placeholder="${1:请输入...}" v-model="$2"></Input>
         """
-    'iView UI Input with icon':
+    'iView Input with icon':
         'prefix': 'ifii',
         'body': """
             <Input placeholder="${1:请输入...}" v-model="$2" icon="$3"></Input>
         """
-    'iView UI Input for textarea':
+    'iView Input for textarea':
         'prefix': 'ifit',
         'body': """
             <Input placeholder="${1:请输入...}" v-model="$2" type="textarea" :autosize="true"></Input>
         """
-    'iView UI Input with slot':
+    'iView Input with slot':
         'prefix': 'ifis',
         'body': """
             <Input placeholder="${1:请输入...}" v-model="$2">
                 $3
             </Input>
         """
-    'iView UI Radio':
+    'iView Radio':
         'prefix': 'ifr',
         'body': """
             <Radio v-model="$1">$2</Radio>
         """
-    'iView UI Radio Group':
+    'iView Radio Group':
         'prefix': 'ifrg',
         'body': """
             <Radio-group v-model="$1">
                 <Radio label="$2">$3</Radio>
             </Radio-group>
         """
-    'iView UI Radio Group Button':
+    'iView Radio Group Button':
         'prefix': 'ifrgb',
         'body': """
             <Radio-group v-model="$1" type="button">
                 <Radio label="$2">$3</Radio>
             </Radio-group>
         """
-    'iView UI Checkbox':
+    'iView Checkbox':
         'prefix': 'ifc',
         'body': """
             <Checkbox v-model="$1">$2</Checkbox>
         """
-    'iView UI Checkbox Group':
+    'iView Checkbox Group':
         'prefix': 'ifcg',
         'body': """
             <Checkbox-group v-model="$1">
                 <Checkbox label="$2">$3</Checkbox>
             </Checkbox-group>
         """
-    'iView UI Switch':
+    'iView Switch':
         'prefix': 'ifs',
         'body': """
             <i-switch v-model="$1">
@@ -74,24 +74,24 @@
                 <span slot="close">${3:关闭}</span>
             </i-switch>
         """
-    'iView UI Select':
+    'iView Select':
         'prefix': 'ifse',
         'body': """
             <Select v-model="$1">
                 <Option v-for="item in $2" :value="item.value" :key="item">{{ item.label }}</Option>
             </Select>
         """
-    'iView UI Slider':
+    'iView Slider':
         'prefix': 'ifsl',
         'body': """
             <Slider v-model="$1"></Slider>
         """
-    'iView UI Cascader':
+    'iView Cascader':
         'prefix': 'ifca',
         'body': """
             <Cascader :data="$1" v-model="$2"></Cascader>
         """
-    'iView UI Rate':
+    'iView Rate':
         'prefix': 'ifra',
         'body': """
             <Rate v-model="$1"></Rate>

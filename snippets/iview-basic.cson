@@ -1,77 +1,77 @@
 '.text.html.vue':
-    'iView UI Row':
+    'iView Row':
         'prefix': 'ibr',
         'body': """
         <Row>
             $1
         </Row>
         """
-    'iView UI Row with flex':
+    'iView Row with flex':
         'prefix': 'ibrf',
         'body': """
         <Row type="flex" justify="$1">
             $2
         </Row>
         """
-    'iView UI Row with gutter':
+    'iView Row with gutter':
         'prefix': 'ibrg',
         'body': """
         <Row :gutter="$1">
             $2
         </Row>
         """
-    'iView UI Col':
+    'iView Col':
         'prefix': 'ibc',
         'body': """
         <Col span="$1">
             $2
         </Col>
         """
-    'iView UI Col with span & offset':
+    'iView Col with span & offset':
         'prefix': 'ibco',
         'body': """
         <Col span="$1" offset="$2">
             $3
         </Col>
         """
-    'iView UI Button':
+    'iView Button':
         'prefix': 'ibb',
         'body': """
         <Button>$1</Button>
         """
-    'iView UI Button with type':
+    'iView Button with type':
         'prefix': 'ibbt',
         'body': """
         <Button type="${1:primary}">$2</Button>
         """
-    'iView UI Button with type & shape':
+    'iView Button with type & shape':
         'prefix': 'ibbts',
         'body': """
         <Button type="${1:primary}" shape="${2:circle}">$3</Button>
         """
-    'iView UI Button with type & icon':
+    'iView Button with type & icon':
         'prefix': 'ibbti',
         'body': """
         <Button type="${1:primary}" icon="${2:ios-search}">$3</Button>
         """
-    'iView UI Button with type & shape & icon':
+    'iView Button with type & shape & icon':
         'prefix': 'ibbtsi',
         'body': """
         <Button type="${1:primary}" shape="${2:circle}" icon="${3:ios-search}">$4</Button>
         """
-    'iView UI Button with loading':
+    'iView Button with loading':
         'prefix': 'ibbl',
         'body': """
         <Button type="${1:primary}" :loading="${2:loading}">$3</Button>
         """
-    'iView UI Button Group':
+    'iView Button Group':
         'prefix': 'ibbg',
         'body': """
         <Button-group>
             $1
         </Button-group>
         """
-    'iView UI Icon':
+    'iView Icon':
         'prefix': 'ibi',
         'body': """
         <Icon type="$1"></Icon>

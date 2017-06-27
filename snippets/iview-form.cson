@@ -96,3 +96,29 @@
         'body': """
             <Rate v-model="$1"></Rate>
         """
+    'iView DatePicker':
+        'prefix': 'ifd',
+        'body': """
+            <Date-picker type="date" placeholder="选择日期..." v-model="$1"></Date-picker>
+        """
+    'iView TimePicker':
+        'prefix': 'ift',
+        'body': """
+            <Time-picker type="time" placeholder="选择时间..." v-model="$1"></Time-picker>
+        """
+    'iView Transfer':
+        'prefix': 'iftr',
+        'body': """
+            <Transfer
+                :data="$1"
+                :target-keys="$2"
+                :render-format="$3"
+                @on-change="$4"></Transfer>
+        """
+    'iView Upload':
+        'prefix': 'ifu',
+        'body': """
+            <Upload action="$1" :multiple="$2">
+                <Button type="ghost" icon="ios-cloud-upload-outline">上传文件</Button>
+            </Upload>
+        """

@@ -32,3 +32,28 @@
             $2
         </Poptip>
         """
+    'iView Modal':
+        'prefix': 'ivmo',
+        'body': """
+        this.$Modal.{$1:info}({
+            title: '$2',
+            content: '$3'
+        })
+        """
+    'iView Collapse':
+        'prefix': 'ivco',
+        'body': """
+        <Collapse>
+            <Panel name="1">
+                $1
+                <p slot="content">$2</p>
+            </Panel>
+        </Collapse>
+        """
+    'iView Tabs':
+        'prefix': 'ivt',
+        'body': """
+        <Tabs>
+            <Tab-pane name="{$1:name1}" label="$2">$3</Tab-pane>
+        </Tabs>
+        """

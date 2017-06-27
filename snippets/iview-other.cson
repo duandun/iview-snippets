@@ -1,0 +1,27 @@
+'.text.html.vue':
+    'iView Progress':
+        'prefix': 'iop',
+        'body': """
+        <Progress :percent="$1" status="{$2:active}"></Progress>
+        """
+    'iView Badge':
+        'prefix': 'iob',
+        'body': """
+        <Badge count="$1" overflow-count="$2">
+            $3
+        </Badge>
+        """
+    'iView Tag':
+        'prefix': 'iot',
+        'body': """
+        <Tag :closable="{$1:false}">$2</Tag>
+        """
+    'iView Page':
+        'prefix': 'iop',
+        'body': """
+        <Page
+            :total="{$1:total}"
+            :page-size="{$2:query.pageSize}"
+            :current="{$3:query.pageNum}"
+            @on-change="{$4:handleCurrentChange}"></Page>
+        """
